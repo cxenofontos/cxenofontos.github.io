@@ -1,252 +1,601 @@
-<!DOCTYPE HTML>
-<!--
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Editorial by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Christos Xenofontos | Academic Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Academic website of Christos Xenofontos, MSCA Fellow and PhD candidate at The Cyprus Institute.">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --bg-alt: #f5f5f7;
+      --accent: #004b8d;
+      --accent-soft: #e4eef7;
+      --text-main: #222222;
+      --text-muted: #555555;
+      --border: #dddddd;
+      --link: #004b8d;
+      --link-hover: #002f5c;
+      --shadow-soft: 0 8px 20px rgba(0, 0, 0, 0.04);
+    }
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+    * {
+      box-sizing: border-box;
+    }
 
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.6;
+    }
 
-							<!-- Header -->
-								<header id="header">
-									<a href="index.html" class="logo"><strong>Editorial</strong> by HTML5 UP</a>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
-									</ul>
-								</header>
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
 
-							<!-- Banner -->
-								<section id="banner">
-									<div class="content">
-										<header>
-											<h1>Hi, I’m Editorial<br />
-											by HTML5 UP</h1>
-											<p>A free and fully responsive site template</p>
-										</header>
-										<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.</p>
-										<ul class="actions">
-											<li><a href="#" class="button big">Learn More</a></li>
-										</ul>
-									</div>
-									<span class="image object">
-										<img src="images/pic10.jpg" alt="" />
-									</span>
-								</section>
+    a:hover {
+      text-decoration: underline;
+      color: var(--link-hover);
+    }
 
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Erat lacinia</h2>
-									</header>
-									<div class="features">
-										<article>
-											<span class="icon fa-gem"></span>
-											<div class="content">
-												<h3>Portitor ullamcorper</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-paper-plane"></span>
-											<div class="content">
-												<h3>Sapien veroeros</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-rocket"></span>
-											<div class="content">
-												<h3>Quam lorem ipsum</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-signal"></span>
-											<div class="content">
-												<h3>Sed magna finibus</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
-										</article>
-									</div>
-								</section>
+    header {
+      background: linear-gradient(135deg, #f3f6fb, #ffffff);
+      border-bottom: 1px solid var(--border);
+    }
 
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Ipsum sed dolor</h2>
-									</header>
-									<div class="posts">
-										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-											<h3>Interdum aenean</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-											<h3>Nulla amet dolore</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-											<h3>Tempus ullamcorper</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3>Sed etiam facilis</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<h3>Feugiat lorem aenean</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-											<h3>Amet varius aliquam</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-									</div>
-								</section>
+    .top-bar {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 1.25rem 1.25rem 0.75rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
 
-						</div>
-					</div>
+    .top-bar a {
+      margin-left: 0.4rem;
+    }
 
-				<!-- Sidebar -->
-					<div id="sidebar">
-						<div class="inner">
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.85rem;
+    }
 
-							<!-- Search -->
-								<section id="search" class="alt">
-									<form method="post" action="#">
-										<input type="text" name="query" id="query" placeholder="Search" />
-									</form>
-								</section>
+    .nav-links a {
+      font-weight: 500;
+    }
 
-							<!-- Menu -->
-								<nav id="menu">
-									<header class="major">
-										<h2>Menu</h2>
-									</header>
-									<ul>
-										<li><a href="index.html">Homepage</a></li>
-										<li><a href="generic.html">Generic</a></li>
-										<li><a href="elements.html">Elements</a></li>
-										<li>
-											<span class="opener">Submenu</span>
-											<ul>
-												<li><a href="#">Lorem Dolor</a></li>
-												<li><a href="#">Ipsum Adipiscing</a></li>
-												<li><a href="#">Tempus Magna</a></li>
-												<li><a href="#">Feugiat Veroeros</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Etiam Dolore</a></li>
-										<li><a href="#">Adipiscing</a></li>
-										<li>
-											<span class="opener">Another Submenu</span>
-											<ul>
-												<li><a href="#">Lorem Dolor</a></li>
-												<li><a href="#">Ipsum Adipiscing</a></li>
-												<li><a href="#">Tempus Magna</a></li>
-												<li><a href="#">Feugiat Veroeros</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Maximus Erat</a></li>
-										<li><a href="#">Sapien Mauris</a></li>
-										<li><a href="#">Amet Lacinia</a></li>
-									</ul>
-								</nav>
+    .hero {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.75rem;
+      align-items: center;
+    }
 
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Ante interdum</h2>
-									</header>
-									<div class="mini-posts">
-										<article>
-											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-									</div>
-									<ul class="actions">
-										<li><a href="#" class="button">More</a></li>
-									</ul>
-								</section>
+    .hero-main {
+      flex: 2 1 260px;
+    }
 
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Get in touch</h2>
-									</header>
-									<p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
-										<li class="icon solid fa-phone">(000) 000-0000</li>
-										<li class="icon solid fa-home">1234 Somewhere Road #8254<br />
-										Nashville, TN 00000-0000</li>
-									</ul>
-								</section>
+    .hero h1 {
+      margin: 0 0 0.35rem;
+      font-size: 2rem;
+      letter-spacing: 0.02em;
+    }
 
-							<!-- Footer -->
-								<footer id="footer">
-									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-								</footer>
+    .hero h2 {
+      margin: 0;
+      font-size: 1.05rem;
+      font-weight: 500;
+      color: var(--text-muted);
+    }
 
-						</div>
-					</div>
+    .hero-meta {
+      margin-top: 0.9rem;
+      font-size: 0.98rem;
+      color: var(--text-muted);
+    }
 
-			</div>
+    .hero-meta div {
+      margin-bottom: 0.2rem;
+    }
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    .hero-meta a {
+      word-break: break-all;
+    }
 
-	</body>
+    .hero-tags {
+      margin-top: 0.85rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      font-size: 0.8rem;
+    }
+
+    .tag {
+      padding: 0.2rem 0.55rem;
+      border-radius: 999px;
+      background-color: var(--accent-soft);
+      color: var(--accent);
+      border: 1px solid rgba(0, 75, 141, 0.15);
+      white-space: nowrap;
+    }
+
+    .hero-highlight {
+      flex: 1.5 1 240px;
+      background-color: var(--bg-alt);
+      border-radius: 16px;
+      padding: 1.1rem 1.1rem 0.9rem;
+      box-shadow: var(--shadow-soft);
+      border: 1px solid rgba(0, 0, 0, 0.03);
+      font-size: 0.9rem;
+    }
+
+    .hero-highlight h3 {
+      margin: 0 0 0.4rem;
+      font-size: 0.98rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+    }
+
+    .hero-highlight p {
+      margin: 0.25rem 0;
+      color: var(--text-muted);
+    }
+
+    main {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 1rem 1.25rem 3rem;
+    }
+
+    section {
+      margin-bottom: 2rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    section:last-of-type {
+      border-bottom: none;
+    }
+
+    h2.section-title {
+      margin-top: 0;
+      margin-bottom: 0.8rem;
+      font-size: 1.3rem;
+      border-left: 4px solid var(--accent);
+      padding-left: 0.6rem;
+    }
+
+    h3 {
+      margin: 0.4rem 0 0.15rem;
+      font-size: 1rem;
+    }
+
+    .subheading {
+      font-size: 0.92rem;
+      color: var(--text-muted);
+    }
+
+    .item-header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 0.35rem;
+      align-items: baseline;
+    }
+
+    .item-meta {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    ul {
+      padding-left: 1.1rem;
+      margin: 0.35rem 0;
+    }
+
+    li {
+      margin-bottom: 0.3rem;
+    }
+
+    .pub-list {
+      list-style: decimal;
+      padding-left: 1.3rem;
+    }
+
+    .pub-list li {
+      margin-bottom: 0.4rem;
+    }
+
+    .two-column {
+      display: grid;
+      grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+      gap: 1.75rem;
+    }
+
+    .pill-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.4rem;
+    }
+
+    .pill-links a {
+      font-size: 0.88rem;
+      padding: 0.2rem 0.75rem;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background-color: #ffffff;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 1.2rem 1.25rem 1.6rem;
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      background-color: #fafafa;
+    }
+
+    @media (max-width: 720px) {
+      .hero {
+        padding-top: 1rem;
+      }
+      .hero h1 {
+        font-size: 1.6rem;
+      }
+      .top-bar {
+        justify-content: center;
+        text-align: center;
+      }
+      .nav-links {
+        justify-content: center;
+      }
+      .two-column {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="top-bar">
+    <div>
+      <span>CARE-C, The Cyprus Institute</span>
+    </div>
+    <nav class="nav-links">
+      <a href="#profile">Profile</a>
+      <a href="#education">Education</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#links">Links</a>
+    </nav>
+  </div>
+
+  <div class="hero">
+    <div class="hero-main">
+      <h1>Christos Xenofontos</h1>
+      <h2>Marie Skłodowska–Curie Actions Fellow &amp; PhD Candidate in Atmospheric Sciences</h2>
+
+      <div class="hero-meta">
+        <div>CARE-C, The Cyprus Institute, 1645 Nicosia, Cyprus</div>
+        <div>Tel: <a href="tel:+35799768524">+357 99768524</a></div>
+        <div>Email: <a href="mailto:c.xenofontos@cyi.ac.cy">c.xenofontos@cyi.ac.cy</a></div>
+      </div>
+
+      <div class="hero-tags">
+        <span class="tag">Atmospheric Sciences</span>
+        <span class="tag">Aerosol–Climate Interactions</span>
+        <span class="tag">Anthropogenic NH₃</span>
+        <span class="tag">Earth System Modelling</span>
+      </div>
+    </div>
+
+    <aside class="hero-highlight">
+      <h3>Research Focus</h3>
+      <p>
+        I investigate how anthropogenic ammonia (NH₃) emissions influence upper-tropospheric aerosol
+        formation and climate. I use the EMAC Earth system model, integrating mechanisms from the
+        CLOUD experiment at CERN.
+      </p>
+      <p>
+        My work quantifies how convectively transported NH₃ enhances new particle formation and cloud-forming
+        particle concentrations over high-emission regions, with implications for aerosol optical depth,
+        climate forcing and policy.
+      </p>
+    </aside>
+  </div>
+</header>
+
+<main>
+  <section id="profile">
+    <h2 class="section-title">Profile</h2>
+    <p>
+      Marie Skłodowska–Curie Actions Fellow (MSCA) and Ph.D. candidate in Atmospheric Sciences at The Cyprus Institute.
+      My research investigates how anthropogenic ammonia (NH₃) emissions influence upper-tropospheric aerosol formation
+      and climate. I use the EMAC Earth system model, integrating mechanisms from the CLOUD experiment at CERN. I have
+      completed secondments at the Max Planck Institute for Chemistry and CERN (CLOUD experiment), published in high-impact
+      journals including <em>PNAS</em> and <em>Nature</em>, and served as a reviewer for
+      <em>Environmental Science &amp; Technology</em>.
+    </p>
+  </section>
+
+  <section id="education">
+    <h2 class="section-title">Education</h2>
+
+    <div class="item">
+      <div class="item-header">
+        <h3>The Cyprus Institute, Nicosia, Cyprus</h3>
+        <span class="item-meta">PhD in Energy, Environment and Atmospheric Sciences &middot; 2023–2026</span>
+      </div>
+      <p class="subheading">
+        Research Project: Anthropogenic NH₃ in the Upper Troposphere: Global Impact on Particle Formation and Its Role in the Asian Tropopause Aerosol Layer
+      </p>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <h3>University College London, London, England</h3>
+        <span class="item-meta">MSc Planetary Science &middot; 2021–2022</span>
+      </div>
+      <p class="subheading">
+        Degree Classification: Distinction<br>
+        Research Project: Simulating the performances of ARIEL and JWST in probing the atmospheres of planets in the radius gap
+      </p>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <h3>Imperial College London, London, England</h3>
+        <span class="item-meta">MSc Physics &middot; 2020–2021</span>
+      </div>
+      <p class="subheading">
+        Degree Classification: Distinction<br>
+        Research Project: Inertial stability and the behaviour of tropical cyclones
+      </p>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <h3>Imperial College London, London, England</h3>
+        <span class="item-meta">BSc Physics &middot; 2017–2020</span>
+      </div>
+      <p class="subheading">
+        Degree Classification: Upper Second Class Honours<br>
+        Research Project: Sonoluminescence – Generating light from acoustically-driven bubbles
+      </p>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <h3>The English School, Nicosia, Cyprus</h3>
+        <span class="item-meta">High School Diploma &middot; 2010–2016</span>
+      </div>
+      <p class="subheading">
+        A Levels: Physics (A*), Mathematics (A*), Further Mathematics (A*), Biology (A), Modern Greek (A)
+      </p>
+    </div>
+  </section>
+
+  <section id="research">
+    <h2 class="section-title">Research Achievements &amp; Peer Recognition</h2>
+
+    <div class="two-column">
+      <div>
+        <h3>Summary of Research</h3>
+        <p>
+          I quantify the global impact of anthropogenic NH₃ on new particle formation (NPF) in the upper troposphere,
+          where aerosols shape cloud properties and climate. Using Earth system modelling and CLOUD-derived NPF
+          mechanisms, I show that NH₃—transported by convection from agricultural sources—enhances aerosol formation
+          through interactions with sulfuric and nitric acids.
+        </p>
+        <p>
+          Simulations reveal that anthropogenic NH₃ increases cloud-forming particle concentrations by up to 2.5× over
+          high-emission regions and raises aerosol optical depth by as much as 80%, amplifying climate effects. This
+          work advances NH₃-driven NPF representation in global models, improving climate projections and informing policy.
+        </p>
+      </div>
+
+      <div>
+        <h3>Awards &amp; Recognition</h3>
+        <ul>
+          <li>
+            <strong>Media recognition of PNAS publication</strong>: Featured and promoted through official PNAS channels
+            with broad engagement across platforms such as Twitter, LinkedIn and Bluesky (2025).
+          </li>
+          <li>
+            <strong>Marie Skłodowska–Curie Actions (MSCA) CLOUD-DOC Fellowship</strong> (EU-2023).
+          </li>
+          <li>
+            <strong>Ogden Prize</strong>: Awarded annually to one student for outstanding achievement in the
+            Communicating Physics course (Imperial College London, 2019).
+          </li>
+          <li>
+            As a result of the Ogden Prize, my name was written into the memory of the magnetometer instrument of the
+            Solar Orbiter spacecraft (Imperial College London, 2019).
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="publications">
+    <h2 class="section-title">Publications</h2>
+
+    <ol class="pub-list">
+      <li>
+        <strong>Xenofontos, C.</strong>, et al. “Global impact of anthropogenic NH₃ emissions on upper tropospheric aerosol formation.”
+        <em>Proceedings of the National Academy of Sciences</em> 122.44 (2025): e2506658122.
+      </li>
+      <li>
+        <strong>Xenofontos, C.</strong>, et al. “The impact of ammonia on particle formation in the Asian Tropopause Aerosol Layer.”
+        <em>npj Climate and Atmospheric Science</em> 7.1 (2024): 215.
+      </li>
+      <li>
+        Russell, D. M., <strong>Xenofontos, C.</strong>, et al. “Isoprene chemistry under upper-tropospheric conditions.”
+        <em>Nature Communications</em> 16.1 (2025): 8555.
+      </li>
+      <li>
+        Bhattacharyya, N., <strong>Xenofontos, C.</strong>, et al. “Isoprene aerosol growth in the upper troposphere:
+        application of the Diagonal Volatility Basis Set to cloud chamber measurements.”
+        <em>ACS ES&amp;T Air</em> 2.10 (2025): 2092–2104.
+      </li>
+      <li>
+        Shen, J., <strong>Xenofontos, C.</strong>, et al. “New particle formation from isoprene under upper-tropospheric conditions.”
+        <em>Nature</em> 636.8041 (2024): 115–123.
+      </li>
+    </ol>
+
+    <p class="subheading">
+      * Manuscripts under review and additional co-authored works available via ORCID, ResearchGate and Google Scholar.
+    </p>
+  </section>
+
+  <section id="experience">
+    <h2 class="section-title">Research Experience &amp; Service</h2>
+
+    <h3>Secondments</h3>
+    <ul>
+      <li>
+        <strong>CERN CLOUD experiment</strong>, Geneva, Switzerland (2023–2026)<br>
+        Supported experimental campaigns through night shifts and contributed to planning discussions.
+      </li>
+      <li>
+        <strong>Airmodus Ltd.</strong>, Helsinki, Finland (2024)<br>
+        Three-week secondment to enhance the Airmodus PSM inversion tool in Python, improving user interface legibility,
+        adding error metrics and refining data visualization.
+      </li>
+      <li>
+        <strong>Max Planck Institute for Chemistry</strong>, Mainz, Germany (2023)<br>
+        Two-month collaboration developing the EMAC model setup for simulating atmospheric particle formation and
+        evaluating its climate impact.
+      </li>
+    </ul>
+
+    <h3>Conferences</h3>
+    <ul>
+      <li>
+        COMECAP, Nicosia, Cyprus (2025) – Oral: Impact of anthropogenic NH₃ on UT aerosol.
+      </li>
+      <li>
+        ICNAA, Vienna, Austria (2025) – Oral: Impact of anthropogenic NH₃ on UT aerosol.
+      </li>
+      <li>
+        EGU General Assembly, Vienna, Austria (2025) – Oral: Anthropogenic NH₃ impact on UT aerosol composition and climate forcing.
+      </li>
+      <li>
+        EAC, Tampere, Finland (2024) – Oral: Impact of NH₃ on particle formation in the Asian Tropopause Aerosol Layer.
+      </li>
+      <li>
+        EGU General Assembly, Vienna, Austria (2024) – Poster: Modelling the impact of NH₃ emissions on NPF in the Asian Monsoon UT.
+      </li>
+    </ul>
+
+    <h3>Positions of Responsibility</h3>
+
+    <div class="item">
+      <div class="item-header">
+        <h3>The Cyprus Institute</h3>
+        <span class="item-meta">Student Representative &middot; Nicosia, Cyprus &middot; 2024–2026</span>
+      </div>
+      <ul>
+        <li>Represented student interests at the Graduate School level in academic and institutional decision-making.</li>
+        <li>Organized student-led events, fostering academic engagement and community-building.</li>
+        <li>Supported student well-being and productivity through peer outreach and feedback mechanisms.</li>
+        <li>Acted as liaison between students and faculty, ensuring transparent communication and leadership representation.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <h3>CLOUD Collaboration</h3>
+        <span class="item-meta">CLOUD-DOC Student Representative, Paper Committee &middot; CERN, Switzerland &middot; 2023–2026</span>
+      </div>
+      <ul>
+        <li>Reviewed and provided feedback on student paper drafts to uphold scientific clarity.</li>
+        <li>Ensured accuracy of author lists, affiliations and acknowledgements across CLOUD publications.</li>
+        <li>Represented doctoral students in discussions with senior researchers on publication planning and policy.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="two-column">
+      <div>
+        <h3>Languages</h3>
+        <ul>
+          <li>Greek (native)</li>
+          <li>English (native)</li>
+          <li>French (IGCSE)</li>
+        </ul>
+
+        <h3>Programming &amp; Modelling</h3>
+        <ul>
+          <li>Python</li>
+          <li>Fortran</li>
+          <li>Earth system model development (EMAC)</li>
+          <li>HPC environments</li>
+          <li>Unix/Linux</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Software &amp; Tools</h3>
+        <ul>
+          <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+          <li>Git</li>
+          <li>LaTeX</li>
+        </ul>
+
+        <h3>Certifications &amp; Teaching</h3>
+        <ul>
+          <li>Python Programming – Coursera &amp; Python Institute Certified.</li>
+          <li>Guided final-year physics students to win gold and silver medals in Physics Olympiads (Chelsea Academy, London).</li>
+          <li>Experience with large-scale simulations, data analysis and collaborative research workflows.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="links">
+    <h2 class="section-title">Research Profiles &amp; Contact</h2>
+    <div class="pill-links">
+      <a href="https://orcid.org/0009-0004-7637-5199" target="_blank" rel="noopener noreferrer">ORCID</a>
+      <a href="https://www.researchgate.net/profile/Christos-Xenofontos-3" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+      <a href="https://scholar.google.com/citations?hl=en&user=octjPQYAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+      <!-- Add personal GitHub or LinkedIn here if you wish -->
+    </div>
+    <p style="margin-top:0.9rem;">
+      References available upon request.
+    </p>
+  </section>
+</main>
+
+<footer>
+  &copy; <span id="year"></span> Christos Xenofontos. All rights reserved.
+</footer>
+
+<script>
+  // Set current year in footer automatically
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
 </html>
