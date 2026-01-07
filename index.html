@@ -39,6 +39,24 @@
       --link-hover: #002f5c;
       --shadow-soft: 0 8px 20px rgba(0, 0, 0, 0.04);
     }
+    /* --- Profile photo --- */
+.hero-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 18px;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-soft);
+  background: #fff;
+}
+
+@media (max-width: 720px) {
+  .hero-photo {
+    width: 120px;
+    height: 120px;
+  }
+}
+
 
     * {
       box-sizing: border-box;
@@ -313,6 +331,13 @@
   </div>
 
   <div class="hero">
+    <img
+  src="images/profile.jpg"
+  alt="Portrait of Christos Xenofontos"
+  class="hero-photo"
+  loading="lazy"
+/>
+
     <div class="hero-main">
       <h1>Christos Xenofontos</h1>
       <h2>MSCA Fellow &amp; PhD in Atmospheric Sciences</h2>
@@ -707,6 +732,7 @@
 
 </body>
 </html>
+
 
 
 
