@@ -44,10 +44,10 @@
   width: 160px;
   height: 160px;
   border-radius: 18px;
-  object-fit: cover;
+  object-fit: contain;   /*  shows whole image */
+  background: #ffffff;   /* padding area if aspect ratio differs */
   border: 1px solid var(--border);
   box-shadow: var(--shadow-soft);
-  background: #fff;
 }
 
 @media (max-width: 720px) {
@@ -732,6 +732,7 @@
 
 </body>
 </html>
+
 
 
 
