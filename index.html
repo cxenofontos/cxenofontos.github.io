@@ -6,25 +6,25 @@
   <meta charset="UTF-8">
   <title>Christos Xenofontos | Academic Website</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Academic website of Christos Xenofontos, MSCA Fellow and PhD candidate at The Cyprus Institute.">
+  <meta name="description" content="Academic website of Christos Xenofontos, MSCA Fellow, Associated CERN Member, and PhD candidate at The Cyprus Institute.">
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Christos Xenofontos",
-"jobTitle": "MSCA Fellow and PhD Candidate in Atmospheric Sciences",
-"affiliation": [
-  {
-    "@type": "Organization",
-    "name": "The Cyprus Institute"
-  },
-  {
-    "@type": "Organization",
-    "name": "CERN",
-    "description": "Associated Member (2023–2026)"
-  }
-],
+    "jobTitle": "MSCA Fellow, Associated CERN Member, and PhD Candidate in Atmospheric Sciences",
+    "affiliation": [
+      {
+        "@type": "Organization",
+        "name": "The Cyprus Institute"
+      },
+      {
+        "@type": "Organization",
+        "name": "CERN",
+        "description": "Associated Member (2023–2026)"
+      }
+    ],
     "url": "https://cxenofontos.github.io/",
     "sameAs": [
       "https://scholar.google.com/citations?user=octjPQYAAAAJ",
@@ -33,6 +33,7 @@
     ]
   }
   </script>
+
   <style>
     :root {
       --bg: #ffffff;
@@ -46,28 +47,26 @@
       --link-hover: #002f5c;
       --shadow-soft: 0 8px 20px rgba(0, 0, 0, 0.04);
     }
+
     /* --- Profile photo --- */
-.hero-photo {
-  width: 160px;
-  height: 160px;
-  border-radius: 18px;
-  object-fit: contain;   /*  shows whole image */
-  background: #ffffff;   /* padding area if aspect ratio differs */
-  border: 1px solid var(--border);
-  box-shadow: var(--shadow-soft);
-}
-
-@media (max-width: 720px) {
-  .hero-photo {
-    width: 120px;
-    height: 120px;
-  }
-}
-
-
-    * {
-      box-sizing: border-box;
+    .hero-photo {
+      width: 160px;
+      height: 160px;
+      border-radius: 18px;
+      object-fit: contain;   /* shows whole image */
+      background: #ffffff;   /* padding area if aspect ratio differs */
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow-soft);
     }
+
+    @media (max-width: 720px) {
+      .hero-photo {
+        width: 120px;
+        height: 120px;
+      }
+    }
+
+    * { box-sizing: border-box; }
 
     body {
       margin: 0;
@@ -105,9 +104,7 @@
       color: var(--text-muted);
     }
 
-    .top-bar a {
-      margin-left: 0.4rem;
-    }
+    .top-bar a { margin-left: 0.4rem; }
 
     .nav-links {
       display: flex;
@@ -115,9 +112,7 @@
       gap: 0.85rem;
     }
 
-    .nav-links a {
-      font-weight: 500;
-    }
+    .nav-links a { font-weight: 500; }
 
     .hero {
       max-width: 960px;
@@ -129,9 +124,7 @@
       align-items: center;
     }
 
-    .hero-main {
-      flex: 2 1 260px;
-    }
+    .hero-main { flex: 2 1 260px; }
 
     .hero h1 {
       margin: 0 0 0.35rem;
@@ -152,13 +145,8 @@
       color: var(--text-muted);
     }
 
-    .hero-meta div {
-      margin-bottom: 0.2rem;
-    }
-
-    .hero-meta a {
-      word-break: break-all;
-    }
+    .hero-meta div { margin-bottom: 0.2rem; }
+    .hero-meta a { word-break: break-all; }
 
     .hero-tags {
       margin-top: 0.85rem;
@@ -212,9 +200,7 @@
       border-bottom: 1px solid var(--border);
     }
 
-    section:last-of-type {
-      border-bottom: none;
-    }
+    section:last-of-type { border-bottom: none; }
 
     h2.section-title {
       margin-top: 0;
@@ -229,10 +215,7 @@
       font-size: 1rem;
     }
 
-    .subheading {
-      font-size: 0.92rem;
-      color: var(--text-muted);
-    }
+    .subheading { font-size: 0.92rem; color: var(--text-muted); }
 
     .item-header {
       display: flex;
@@ -242,28 +225,13 @@
       align-items: baseline;
     }
 
-    .item-meta {
-      font-size: 0.9rem;
-      color: var(--text-muted);
-    }
+    .item-meta { font-size: 0.9rem; color: var(--text-muted); }
 
-    ul {
-      padding-left: 1.1rem;
-      margin: 0.35rem 0;
-    }
+    ul { padding-left: 1.1rem; margin: 0.35rem 0; }
+    li { margin-bottom: 0.3rem; }
 
-    li {
-      margin-bottom: 0.3rem;
-    }
-
-    .pub-list {
-      list-style: decimal;
-      padding-left: 1.3rem;
-    }
-
-    .pub-list li {
-      margin-bottom: 0.4rem;
-    }
+    .pub-list { list-style: decimal; padding-left: 1.3rem; }
+    .pub-list li { margin-bottom: 0.4rem; }
 
     .two-column {
       display: grid;
@@ -296,115 +264,102 @@
     }
 
     @media (max-width: 720px) {
-      .hero {
-        padding-top: 1rem;
-      }
-      .hero h1 {
-        font-size: 1.6rem;
-      }
-      .top-bar {
-        justify-content: center;
-        text-align: center;
-      }
-      .nav-links {
-        justify-content: center;
-      }
-      .two-column {
-        grid-template-columns: 1fr;
-      }
+      .hero { padding-top: 1rem; }
+      .hero h1 { font-size: 1.6rem; }
+      .top-bar { justify-content: center; text-align: center; }
+      .nav-links { justify-content: center; }
+      .two-column { grid-template-columns: 1fr; }
     }
   </style>
 </head>
-<body>
 
+<body>
 <header>
   <div class="top-bar">
     <div>
       <span>CARE-C, The Cyprus Institute</span>
     </div>
-<nav class="nav-links">
-  <a href="#profile">Profile</a>
-  <a href="#education">Education</a>
-  <a href="#research">Research</a>
-  <a href="#publications">Publications</a>
-  <a href="#experience">Experience</a>
-  <a href="#skills">Skills</a>
-  <a href="#media-mentions">Media</a>
-  <a href="#links">Links</a>
-  <a href="CV10.pdf" target="_blank">CV</a>
-</nav>
-
-
+    <nav class="nav-links">
+      <a href="#profile">Profile</a>
+      <a href="#education">Education</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#media-mentions">Media</a>
+      <a href="#links">Links</a>
+      <a href="CV11.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+    </nav>
   </div>
 
-<div class="hero">
-  <img
-    src="profile.jpg"
-    alt="Portrait of Christos Xenofontos"
-    class="hero-photo"
-    loading="lazy"
-  />
+  <div class="hero">
+    <img
+      src="profile.jpg"
+      alt="Portrait of Christos Xenofontos"
+      class="hero-photo"
+      loading="lazy"
+    />
 
-  <div class="hero-main">
-    <h1>Christos Xenofontos</h1>
-    <h2>MSCA Fellow &amp; PhD in Atmospheric Sciences</h2>
+    <div class="hero-main">
+      <h1>Christos Xenofontos</h1>
+      <h2>MSCA Fellow &amp; Associated CERN Member &amp; PhD in Atmospheric Sciences</h2>
 
-<div class="hero-meta">
-  <div>CARE-C, The Cyprus Institute, 1645 Nicosia, Cyprus</div>
-  <div>Associated Member, CERN &middot; 2023–2026</div>
-  <div>Name in Greek: Χρίστος Ξενοφώντος</div>
-  <div>
-   Date of Birth:
-    <time datetime="1997-05-02">2 May 1997</time>
-  </div>
-    <div>
-   Place of Birth: Nicosia, Cyprus
-  </div>
-  <div>Email: <a href="mailto:c.xenofontos@cyi.ac.cy">c.xenofontos@cyi.ac.cy</a></div>
-  <div>
-    ORCID:
-    <a href="https://orcid.org/0009-0004-7637-5199" target="_blank" rel="noopener noreferrer">
-      0009-0004-7637-5199
-    </a>
-  </div>
-</div>
+      <div class="hero-meta">
+        <div>CARE-C, The Cyprus Institute, 1645 Nicosia, Cyprus</div>
+        <div>Associated CERN Member &middot; 2023–2026</div>
+        <div>Name in Greek: Χρίστος Ξενοφώντος</div>
 
+        <!-- Consider removing personal details (DOB/Place of birth) for privacy on a public website -->
+        <div>
+          Date of Birth:
+          <time datetime="1997-05-02">2 May 1997</time>
+        </div>
+        <div>Place of Birth: Nicosia, Cyprus</div>
 
-    <div class="hero-tags">
-      <span class="tag">Atmospheric Sciences</span>
-      <span class="tag">Aerosol–Climate Interactions</span>
-      <span class="tag">Anthropogenic NH₃</span>
-      <span class="tag">Earth System Modelling</span>
+        <div>Email: <a href="mailto:c.xenofontos@cyi.ac.cy">c.xenofontos@cyi.ac.cy</a></div>
+        <div>
+          ORCID:
+          <a href="https://orcid.org/0009-0004-7637-5199" target="_blank" rel="noopener noreferrer">
+            0009-0004-7637-5199
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-tags">
+        <span class="tag">Atmospheric Sciences</span>
+        <span class="tag">Aerosol–Climate Interactions</span>
+        <span class="tag">Anthropogenic NH₃</span>
+        <span class="tag">Earth System Modelling</span>
+      </div>
     </div>
+
+    <aside class="hero-highlight">
+      <h3>Research Focus</h3>
+      <p>
+        I investigate how anthropogenic ammonia (NH₃) emissions influence upper-tropospheric aerosol
+        formation and climate. I use the EMAC Earth system model, integrating mechanisms from the
+        CLOUD experiment at CERN.
+      </p>
+      <p>
+        My work quantifies how convectively transported NH₃ enhances new particle formation and cloud-forming
+        particle concentrations over high-emission regions, with implications for aerosol optical depth,
+        climate forcing and policy.
+      </p>
+    </aside>
   </div>
-
-  <aside class="hero-highlight">
-    <h3>Research Focus</h3>
-    <p>
-      I investigate how anthropogenic ammonia (NH₃) emissions influence upper-tropospheric aerosol
-      formation and climate. I use the EMAC Earth system model, integrating mechanisms from the
-      CLOUD experiment at CERN.
-    </p>
-    <p>
-      My work quantifies how convectively transported NH₃ enhances new particle formation and cloud-forming
-      particle concentrations over high-emission regions, with implications for aerosol optical depth,
-      climate forcing and policy.
-    </p>
-  </aside>
-</div>
-
 </header>
 
 <main>
   <section id="profile">
     <h2 class="section-title">Profile</h2>
     <p>
-      Marie Skłodowska–Curie Actions Fellow (MSCA) and Ph.D. candidate in Atmospheric Sciences at The Cyprus Institute.
+      Marie Skłodowska–Curie Actions (MSCA) Fellow, <strong>Associated CERN Member</strong>, and PhD candidate in Atmospheric Sciences at The Cyprus Institute.
       My research investigates how anthropogenic ammonia (NH₃) emissions influence upper-tropospheric aerosol formation
-      and climate. I use the EMAC Earth system model, integrating mechanisms from the CLOUD experiment at CERN. 
-      I have been an Associated Member of CERN (2023–2026) through the CLOUD experiment and have completed secondments at the Max Planck Institute for Chemistry (MPIC) and Airmodus. 
-      I published in high-impact journals including <em>PNAS</em> and <em>Nature</em>, and served as a reviewer for
-      <em>Environmental Science &amp; Technology</em>. My work involves robust programming and data analysis skills.
+      and climate. I use the EMAC Earth system model, integrating mechanisms from the CLOUD experiment at CERN.
+      I have been an Associated CERN Member (2023–2026) through the CLOUD experiment and have completed secondments at the
+      Max Planck Institute for Chemistry (MPIC) and Airmodus.
+      I publish in high-impact journals including <em>PNAS</em> and <em>Nature</em>, and I have served as a reviewer for
+      <em>Environmental Science &amp; Technology</em>. My work involves robust programming, data analysis, and high-performance computing.
     </p>
   </section>
 
@@ -511,53 +466,47 @@
   <section id="publications">
     <h2 class="section-title">Publications</h2>
 
-<ol class="pub-list">
-  <li>
-    <strong>Christos Xenofontos</strong> et al.
-    <a href="https://www.pnas.org/doi/10.1073/pnas.2506658122" target="_blank" rel="noopener noreferrer">
-      “Global impact of anthropogenic NH₃ emissions on upper tropospheric aerosol formation.”
-    </a>
-    <em>Proceedings of the National Academy of Sciences</em> 122.44 (2025): e2506658122.
-  </li>
+    <ol class="pub-list">
+      <li>
+        <strong>Christos Xenofontos</strong> et al.
+        <a href="https://www.pnas.org/doi/10.1073/pnas.2506658122" target="_blank" rel="noopener noreferrer">
+          “Global impact of anthropogenic NH₃ emissions on upper tropospheric aerosol formation.”
+        </a>
+        <em>Proceedings of the National Academy of Sciences</em> 122.44 (2025): e2506658122.
+      </li>
 
-  <li>
-    <strong>Christos Xenofontos</strong> et al.
-    <a href="https://www.nature.com/articles/s41612-024-00758-3" target="_blank" rel="noopener noreferrer">
-      “The impact of ammonia on particle formation in the Asian Tropopause Aerosol Layer.”
-    </a>
-    <em>npj Climate and Atmospheric Science</em> 7.1 (2024): 215.
-  </li>
+      <li>
+        <strong>Christos Xenofontos</strong> et al.
+        <a href="https://www.nature.com/articles/s41612-024-00758-3" target="_blank" rel="noopener noreferrer">
+          “The impact of ammonia on particle formation in the Asian Tropopause Aerosol Layer.”
+        </a>
+        <em>npj Climate and Atmospheric Science</em> 7.1 (2024): 215.
+      </li>
 
-  <li>
-    Douglas M. Russell et al. 
-    <a href="https://www.nature.com/articles/s41467-025-64229-w" target="_blank" rel="noopener noreferrer">
-    “Isoprene chemistry under upper-tropospheric conditions.”
-      </a>
-    <em>Nature Communications</em> 16.1 (2025): 8555.
-  </li>
+      <li>
+        Douglas M. Russell et al.
+        <a href="https://www.nature.com/articles/s41467-025-64229-w" target="_blank" rel="noopener noreferrer">
+          “Isoprene chemistry under upper-tropospheric conditions.”
+        </a>
+        <em>Nature Communications</em> 16.1 (2025): 8555.
+      </li>
 
-  <li>
-    Nirvan Bhattacharyya et al. 
-    <a href="https://pubs.acs.org/doi/10.1021/acsestair.5c00106" target="_blank" rel="noopener noreferrer">
-    “Isoprene aerosol growth in the upper troposphere:
-    application of the Diagonal Volatility Basis Set to cloud chamber measurements.”
-      </a>
-    <em>ACS ES&amp;T Air</em> 2.10 (2025): 2092–2104.
-  </li>
+      <li>
+        Nirvan Bhattacharyya et al.
+        <a href="https://pubs.acs.org/doi/10.1021/acsestair.5c00106" target="_blank" rel="noopener noreferrer">
+          “Isoprene aerosol growth in the upper troposphere: application of the Diagonal Volatility Basis Set to cloud chamber measurements.”
+        </a>
+        <em>ACS ES&amp;T Air</em> 2.10 (2025): 2092–2104.
+      </li>
 
-  <li>
-    Jiali Shen et al. 
-    <a href="https://www.nature.com/articles/s41586-024-08196-0" target="_blank" rel="noopener noreferrer">
-    “New particle formation from isoprene under upper-tropospheric conditions.”
-       </a>
-    <em>Nature</em> 636.8041 (2024): 115–123.
-  </li>
-</ol>
-
-
-    <p class="subheading">
-       
-    </p>
+      <li>
+        Jiali Shen et al.
+        <a href="https://www.nature.com/articles/s41586-024-08196-0" target="_blank" rel="noopener noreferrer">
+          “New particle formation from isoprene under upper-tropospheric conditions.”
+        </a>
+        <em>Nature</em> 636.8041 (2024): 115–123.
+      </li>
+    </ol>
   </section>
 
   <section id="experience">
@@ -571,8 +520,8 @@
       </li>
       <li>
         <strong>Airmodus Ltd.</strong>, Helsinki, Finland (2024)<br>
-        Three-week secondment to enhance the Airmodus PSM inversion tool in Python, improving user interface legibility,
-        adding error metrics and refining data visualization.
+        Three-week secondment to enhance the Airmodus PSM inversion tool in Python, improving user-interface clarity,
+        implementing error/uncertainty metrics, and refining data visualization.
       </li>
       <li>
         <strong>Max Planck Institute for Chemistry</strong>, Mainz, Germany (2023)<br>
@@ -580,41 +529,24 @@
         evaluating its climate impact.
       </li>
     </ul>
-    
+
     <h3>Conferences</h3>
     <ul>
-      <li>
-        COMECAP, Nicosia, Cyprus (2025) – Oral: Impact of anthropogenic NH₃ on UT aerosol.
-      </li>
-      <li>
-        ICNAA, Vienna, Austria (2025) – Oral: Impact of anthropogenic NH₃ on UT aerosol. Served as Session Chair.
-      </li>
-      <li>
-        EGU General Assembly, Vienna, Austria (2025) – Oral: Anthropogenic NH₃ impact on UT aerosol composition and climate forcing.
-      </li>
-      <li>
-        EAC, Tampere, Finland (2024) – Oral: Impact of NH₃ on particle formation in the Asian Tropopause Aerosol Layer.
-      </li>
-      <li>
-        EGU General Assembly, Vienna, Austria (2024) – Poster: Modelling the impact of NH₃ emissions on NPF in the Asian Monsoon UT.
-      </li>
+      <li>COMECAP, Nicosia, Cyprus (2025) – Oral: Impact of anthropogenic NH₃ on UT aerosol.</li>
+      <li>ICNAA, Vienna, Austria (2025) – Oral: Impact of anthropogenic NH₃ on UT aerosol. Served as Session Chair.</li>
+      <li>EGU General Assembly, Vienna, Austria (2025) – Oral: Anthropogenic NH₃ impact on UT aerosol composition and climate forcing.</li>
+      <li>EAC, Tampere, Finland (2024) – Oral: Impact of NH₃ on particle formation in the Asian Tropopause Aerosol Layer.</li>
+      <li>EGU General Assembly, Vienna, Austria (2024) – Poster: Modelling the impact of NH₃ emissions on NPF in the Asian Monsoon UT.</li>
     </ul>
-    
+
     <h3>Schools</h3>
     <ul>
-      <li>
-        Participant at the second CLOUD-DOC Summer School in Finland (2024)
-      </li>
-      <li>
-        First CLOUD-DOC Summer School in Frankfurt (2023)
-      </li>
-      <li>
-       EMME-CARE Autumn School on “Analysis of aerosols, air pollution and their sources in the Eastern Mediterranean” in Cyprus (2022)
-      </li>
-      <li>
-        1st MedCyclones Workshop and Training School at the University of Athens and organized by the COST Action CA19109 MedCyclones “European network for Mediterranean cyclones in weather and climate” (2022)
-      </li>
+      <li>Participant at the second CLOUD-DOC Summer School in Finland (2024)</li>
+      <li>First CLOUD-DOC Summer School in Frankfurt (2023)</li>
+      <li>EMME-CARE Autumn School on “Analysis of aerosols, air pollution and their sources in the Eastern Mediterranean” in Cyprus (2022)</li>
+      <li>1st MedCyclones Workshop and Training School at the University of Athens, COST Action CA19109 MedCyclones (2022)</li>
     </ul>
+
     <h3>Positions of Responsibility</h3>
 
     <div class="item">
@@ -641,14 +573,15 @@
         <li>Represented doctoral students in discussions with senior researchers on publication planning and policy.</li>
       </ul>
     </div>
-     <div class="item">
+
+    <div class="item">
       <div class="item-header">
         <h3>Chelsea Academy</h3>
         <span class="item-meta">Teaching Assistant &middot; London, England &middot; 2019</span>
       </div>
       <ul>
-        <li>Spent 3 hours teaching the students every week for 3 months.</li>
-        <li>Guided final-year physics students to win gold and silver medals in Physics Olympiads.</li>
+        <li>Delivered weekly physics instruction to secondary-level students over one academic term.</li>
+        <li>Mentored final-year students achieving gold and silver medals in Physics Olympiads.</li>
       </ul>
     </div>
   </section>
@@ -690,86 +623,46 @@
           <li>Experience with large-scale simulations, data analysis and collaborative research workflows.</li>
           <li>Certificate of very good knowledge of the Greek language (Ministry of Education, Republic of Cyprus, 2015).</li>
           <li>Duke of Edinburgh Bronze and Silver awards.</li>
-          <li>Taekwondo 8 Kup-Promotion Test Participant. Awarded by the Taekwondo World Federation.</li>
+          <li>Taekwondo 8 Kup-Promotion Test Participant (Taekwondo World Federation).</li>
           <li>Participant at the 23rd Cyprus Mathematical School organised by the Cyprus Mathematics Society.</li>
         </ul>
       </div>
     </div>
   </section>
 
-  
-<section id="media-mentions">
-  <h2 class="section-title">Press/Media</h2>
-
-
+  <section id="media-mentions">
+    <h2 class="section-title">Press/Media</h2>
     <div class="two-column">
       <div>
- 
-    <ul>
-      <li>
-         <a href="https://x.com/PNASNews/status/1985392134426415289" target="_blank" rel="noopener noreferrer">PNAS news on X (formerly Twitter) in 2025</a>
-      </li>
-      <li>
-        <a href="https://bsky.app/profile/pnas.org" target="_blank" rel="noopener noreferrer">PNAS news on Bluesky (2025)</a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/posts/pnas-news_ammonia-emissions-from-agricultural-fertilizers-activity-7391157828515889152-Q7wG" target="_blank" rel="noopener noreferrer">PNAS news on LinkedIn (2025)</a>
-      </li>
-      <li>
-        <a href="https://article.wn.com/view/2025/10/27/Global_impact_of_anthropogenic_NH3_emissions_on_upper_tropos/" target="_blank" rel="noopener noreferrer">World News (WN) in 2025</a>
-      </li>
-      <li>
-        <a href="https://www.azocleantech.com/news.aspx?NewsID=36079" target="_blank" rel="noopener noreferrer">AZoCleantech (2025)</a>
-      </li>
-      <li>
-        <a href="https://www.msn.com/en-gb/news/techandscience/global-impact-of-anthropogenic-ammonia-on-upper-tropospheric-aerosols/ar-AA1SvJO1" target="_blank" rel="noopener noreferrer">MSN (2025)</a>
-      </li>
-      <li>
-        <a href="https://www.growkudos.com/publications/10.1073%25252Fpnas.2506658122/reader" target="_blank" rel="noopener noreferrer">Kudos (2025)</a>
-      </li>
-      <li>
-        <a href="https://emme-care.cyi.ac.cy/global-impact-of-anthropogenic-nh3-emissions-on-upper-tropospheric-aerosol-formation/" target="_blank" rel="noopener noreferrer">EMME-CARE (2025)</a>
-      </li>
-      <li>
-        <a href="https://emme-care.cyi.ac.cy/the-impact-of-ammonia-on-particle-formation-in-the-asian-tropopause-aerosol-layer/" target="_blank" rel="noopener noreferrer">EMME-CARE (2024)</a>
-      </li>
-      <li>
-        <a href="https://www.psi.ch/en/lac/scientific-highlights/cloud-formation-high-above-earth" target="_blank" rel="noopener noreferrer">PSI (2025)</a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/posts/max-planck-institut-fuer-chemie_climatescience-atmosphericresearch-airquality-activity-7389228514002022401-L5lg" target="_blank" rel="noopener noreferrer">Max Planck Institute for Chemistry (2025)</a>
-      </li>
-      <li>
-        <a href="https://www.ant1live.com/zoi/epistimi/654869_eyrimata-meletis-institoytoy-kyproy-pagkosmios-antiktypos-ton-anthropogenon" target="_blank" rel="noopener noreferrer">Ant1 Live (2025)</a>
-      </li>
-      <li>
-        <a href="https://www.philenews.com/kipros/koinonia/article/1643690/erevna-iki-i-anthropogenis-ekpompes-ammonias-apo-ti-georgia-epireazoun-to-pagkosmio-klima/" target="_blank" rel="noopener noreferrer">Phileleftheros (2025)</a>
-      </li>
-      <li>
-        <a href="https://www.cna.org.cy/article/9376129/oi-anthropogeneis-ekpobes-ammonias-apo-ti-georgia-epireazoyn-to-klima-leei-erevna-iky" target="_blank" rel="noopener noreferrer">CNA (2025)</a>
-      </li>
-      <li>
-        <a href="https://www.ygeiawatch.com.cy/news/eidhseis/iky-h-gewrgikh-ammwnia-ephreazei-to-klima" target="_blank" rel="noopener noreferrer">stockwatch (ygeiawatch) in 2025</a>
-      </li>
-      <li>
-        <a href="https://communities.springernature.com/posts/how-ammonia-shapes-air-pollution-and-cloud-formation-above-southeast-asia" target="_blank" rel="noopener noreferrer">Springer Nature (Research Communities) in 2024</a>
-      </li>
-    </ul>
-  </div>   
-</section>
- 
-  
+        <ul>
+          <li><a href="https://x.com/PNASNews/status/1985392134426415289" target="_blank" rel="noopener noreferrer">PNAS news on X (formerly Twitter) in 2025</a></li>
+          <li><a href="https://bsky.app/profile/pnas.org" target="_blank" rel="noopener noreferrer">PNAS news on Bluesky (2025)</a></li>
+          <li><a href="https://www.linkedin.com/posts/pnas-news_ammonia-emissions-from-agricultural-fertilizers-activity-7391157828515889152-Q7wG" target="_blank" rel="noopener noreferrer">PNAS news on LinkedIn (2025)</a></li>
+          <li><a href="https://article.wn.com/view/2025/10/27/Global_impact_of_anthropogenic_NH3_emissions_on_upper_tropos/" target="_blank" rel="noopener noreferrer">World News (WN) in 2025</a></li>
+          <li><a href="https://www.azocleantech.com/news.aspx?NewsID=36079" target="_blank" rel="noopener noreferrer">AZoCleantech (2025)</a></li>
+          <li><a href="https://www.msn.com/en-gb/news/techandscience/global-impact-of-anthropogenic-ammonia-on-upper-tropospheric-aerosols/ar-AA1SvJO1" target="_blank" rel="noopener noreferrer">MSN (2025)</a></li>
+          <li><a href="https://www.growkudos.com/publications/10.1073%25252Fpnas.2506658122/reader" target="_blank" rel="noopener noreferrer">Kudos (2025)</a></li>
+          <li><a href="https://emme-care.cyi.ac.cy/global-impact-of-anthropogenic-nh3-emissions-on-upper-tropospheric-aerosol-formation/" target="_blank" rel="noopener noreferrer">EMME-CARE (2025)</a></li>
+          <li><a href="https://emme-care.cyi.ac.cy/the-impact-of-ammonia-on-particle-formation-in-the-asian-tropopause-aerosol-layer/" target="_blank" rel="noopener noreferrer">EMME-CARE (2024)</a></li>
+          <li><a href="https://www.psi.ch/en/lac/scientific-highlights/cloud-formation-high-above-earth" target="_blank" rel="noopener noreferrer">PSI (2025)</a></li>
+          <li><a href="https://www.linkedin.com/posts/max-planck-institut-fuer-chemie_climatescience-atmosphericresearch-airquality-activity-7389228514002022401-L5lg" target="_blank" rel="noopener noreferrer">Max Planck Institute for Chemistry (2025)</a></li>
+          <li><a href="https://www.ant1live.com/zoi/epistimi/654869_eyrimata-meletis-institoytoy-kyproy-pagkosmios-antiktypos-ton-anthropogenon" target="_blank" rel="noopener noreferrer">Ant1 Live (2025)</a></li>
+          <li><a href="https://www.philenews.com/kipros/koinonia/article/1643690/erevna-iki-i-anthropogenis-ekpompes-ammonias-apo-ti-georgia-epireazoun-to-pagkosmio-klima/" target="_blank" rel="noopener noreferrer">Phileleftheros (2025)</a></li>
+          <li><a href="https://www.cna.org.cy/article/9376129/oi-anthropogeneis-ekpobes-ammonias-apo-ti-georgia-epireazoyn-to-klima-leei-erevna-iky" target="_blank" rel="noopener noreferrer">CNA (2025)</a></li>
+          <li><a href="https://www.ygeiawatch.com.cy/news/eidhseis/iky-h-gewrgikh-ammwnia-ephreazei-to-klima" target="_blank" rel="noopener noreferrer">Stockwatch (YgeiaWatch) in 2025</a></li>
+          <li><a href="https://communities.springernature.com/posts/how-ammonia-shapes-air-pollution-and-cloud-formation-above-southeast-asia" target="_blank" rel="noopener noreferrer">Springer Nature (Research Communities) in 2024</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
   <section id="links">
     <h2 class="section-title">Research Profiles &amp; Contact</h2>
     <div class="pill-links">
       <a href="https://orcid.org/0009-0004-7637-5199" target="_blank" rel="noopener noreferrer">ORCID</a>
       <a href="https://www.researchgate.net/profile/Christos-Xenofontos-3" target="_blank" rel="noopener noreferrer">ResearchGate</a>
       <a href="https://scholar.google.com/citations?hl=en&user=octjPQYAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-      <!-- Add personal GitHub or LinkedIn here if you wish -->
     </div>
-    <p style="margin-top:0.9rem;">
-       
-    </p>
   </section>
 </main>
 
@@ -784,53 +677,3 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
